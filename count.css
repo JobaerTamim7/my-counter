@@ -1,0 +1,67 @@
+
+body{
+    background-color: rgba(30, 144, 255,50%);
+}
+/*---------------NEW ONE GOES HERE--------------*/
+.container{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardBody{
+    background-color: rgba(220, 20, 60,80%);
+    width: 300px;
+    aspect-ratio: 16/17;
+    border: 2px solid salmon;
+    padding: 10px;
+}
+
+#title{
+    position:relative;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    margin: auto;
+    border: 10px solid rgb(20 20 20 / 60%);
+    width: 70px;
+    aspect-ratio: 16/18;
+    top: 80px;;
+}
+
+
+
+button{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 5px;
+    background: linear-gradient(45deg,rgba(65, 139, 204, 0.5),rgba(64, 64, 180, 0.5));
+    border: 3px groove lightgray;
+}
+
+.allButton{
+    position: relative;
+        top: 115px;
+    }
+    
+#countMinus{
+    right: -90px;
+}
+
+#countAdd{
+    left: 1px;
+}
+
+#reset{
+    right: -100px;
+    top: 10px;
+}
+button:active{
+    font-size: 13px;
+    background-color: #2196F3;
+}
