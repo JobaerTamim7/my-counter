@@ -20,14 +20,14 @@ body{
     box-shadow: 5px 5px rgba(220, 20, 60, 0.5); 
 }
 .heading{
-    max-width: 80px;
+    max-width: 150px;
     background-color: #2196F3;
     text-align: center;
     text-shadow: 2px 2px 2px #1a1a1a, 2px 2px 2px #ff000014;
     font-size: 25px;
     position: relative;
     top: 20px;
-    left: 100px;
+    left: 65px;
     padding: 10px;
     border-radius:100px;
     margin-bottom:0px;
