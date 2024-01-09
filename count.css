@@ -26,7 +26,7 @@ body{
     text-shadow: 2px 2px 2px #1a1a1a, 2px 2px 2px #ff000014;
     font-size: 25px;
     position: relative;
-    top: 20px;
+    top: 60px;
     left: 65px;
     padding: 10px;
     border-radius:100px;
@@ -44,7 +44,7 @@ body{
     border: 10px dotted rgba(0, 0, 0, 0.6);
     width: 70px;
     aspect-ratio: 8/9;
-    top: 60px;;
+    top: 110px;;
 }
 
 
@@ -63,20 +63,20 @@ button{
 
 .allButton{
     position: relative;
-        top: 70px;
+        top: 40px;
     }
     
 #countMinus{
-    right: -90px;
+    right: -100px;
 }
 
 #countAdd{
-    left: 1px;
+    left: -1px;
 }
 
 #reset{
     right: -100px;
-    top: 10px;
+    top: 60px;
 }
 button:active{
     font-size: 13px;
